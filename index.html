@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI Powered Educator - Tools</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for a nice, clean look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Use the Inter font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple transition for the tool cards on hover */
+        .tool-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+            <h1 class="text-4xl font-bold text-gray-800 tracking-tight">The AI Powered Educator</h1>
+            <p class="mt-2 text-lg text-gray-600">A Collection of Interactive Learning Tools</p>
+        </div>
+    </header>
+
+    <!-- Main Content: Tool Grid -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Grid container for the tools -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Tool Card 1: Bubble Pop Fractions -->
+            <div class="tool-card bg-white rounded-lg overflow-hidden shadow-md border border-gray-200 flex flex-col">
+                <!-- GIF Placeholder: Replace the src with the path to your actual GIF -->
+                <a href="#" class="block">
+                    <img src="https://placehold.co/600x400/4CAF50/FFFFFF?text=Bubble+Pop+GIF" 
+                         alt="Animated GIF of the Bubble Pop Fractions game" 
+                         class="w-full h-48 object-cover">
+                </a>
+                <div class="p-6 flex-grow flex flex-col">
+                    <h2 class="text-2xl font-bold text-gray-800">Bubble Pop: Fractions</h2>
+                    <p class="mt-2 text-gray-600 flex-grow">A fun, fast-paced game where students pop bubbles in order from least to greatest (or vice-versa) to practice comparing fractions.</p>
+                    <!-- Link to the tool: The href will be updated later with the live URL -->
+                    <a href="#" class="mt-4 inline-block bg-blue-600 text-white text-center font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors w-full">
+                        Launch Tool
+                    </a>
+                </div>
+            </div>
+
+            <!-- Add a new "tool-card" div here for your next tool! -->
+            <!-- 
+            <div class="tool-card bg-white rounded-lg overflow-hidden shadow-md border border-gray-200 flex flex-col">
+                <a href="#" class="block">
+                    <img src="https://placehold.co/600x400/cccccc/FFFFFF?text=New+Tool+GIF" alt="GIF of new tool" class="w-full h-48 object-cover">
+                </a>
+                <div class="p-6 flex-grow flex flex-col">
+                    <h2 class="text-2xl font-bold text-gray-800">New Tool Name</h2>
+                    <p class="mt-2 text-gray-600 flex-grow">A description of your new tool goes here.</p>
+                    <a href="#" class="mt-4 inline-block bg-blue-600 text-white text-center font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors w-full">
+                        Launch Tool
+                    </a>
+                </div>
+            </div>
+            -->
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12">
+        <div class="max-w-5xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center text-gray-500">
+            <p>&copy; 2024 The AI Powered Educator. All rights reserved.</p>
+            <p class="mt-1">Visit me on <a href="[Your Substack URL]" class="text-blue-600 hover:underline">Substack</a>.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
